@@ -26,9 +26,10 @@ const findemployee = (order, allEmployees) => {
     for (const employee of allEmployees) {
         if (employee.id === order.employeeId) {
             orderEmployee = employee
-        } else {
-            console.log(employee, order)
         }
+        //  else {
+        //     console.log(employee, order)
+        // }
     }
 
     return orderEmployee
